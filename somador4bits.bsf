@@ -47,16 +47,23 @@ applicable agreement for further details.
 	(port
 		(pt 128 32)
 		(output)
-		(text "c_out" (rect 0 0 31 14)(font "Arial" (font_size 8)))
-		(text "c_out" (rect 76 27 107 41)(font "Arial" (font_size 8)))
+		(text "c_out2" (rect 0 0 38 14)(font "Arial" (font_size 8)))
+		(text "c_out2" (rect 69 27 107 41)(font "Arial" (font_size 8)))
 		(line (pt 128 32)(pt 112 32))
 	)
 	(port
 		(pt 128 48)
 		(output)
+		(text "c_out" (rect 0 0 31 14)(font "Arial" (font_size 8)))
+		(text "c_out" (rect 76 43 107 57)(font "Arial" (font_size 8)))
+		(line (pt 128 48)(pt 112 48))
+	)
+	(port
+		(pt 128 64)
+		(output)
 		(text "s[3..0]" (rect 0 0 35 14)(font "Arial" (font_size 8)))
-		(text "s[3..0]" (rect 72 43 107 57)(font "Arial" (font_size 8)))
-		(line (pt 128 48)(pt 112 48)(line_width 3))
+		(text "s[3..0]" (rect 72 59 107 73)(font "Arial" (font_size 8)))
+		(line (pt 128 64)(pt 112 64)(line_width 3))
 	)
 	(drawing
 		(rectangle (rect 16 16 112 80))

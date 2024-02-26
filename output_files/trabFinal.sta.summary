@@ -2,4 +2,940 @@
 TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
+Type  : Slow 1200mV 85C Model Setup 'ck_man'
+Slack : -0.180
+TNS   : -0.333
+
+Type  : Slow 1200mV 85C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst1254|inst'
+Slack : 0.046
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst5|inst'
+Slack : 0.046
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst6|inst'
+Slack : 0.046
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst|inst'
+Slack : 0.046
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst4|inst'
+Slack : 0.047
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst1254|inst'
+Slack : 0.132
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'ck'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst5|inst'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst6|inst'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst|inst'
+Slack : 0.187
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst6|inst'
+Slack : 0.190
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst1254|inst'
+Slack : 0.193
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst4|inst'
+Slack : 0.193
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst6|inst'
+Slack : 0.193
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst5|inst'
+Slack : 0.193
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst|inst'
+Slack : 0.193
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst1254|inst'
+Slack : 0.199
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst|inst'
+Slack : 0.204
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst4|inst'
+Slack : 0.210
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst4|inst'
+Slack : 0.227
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst1254|inst'
+Slack : 0.264
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst|inst'
+Slack : 0.267
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst5|inst'
+Slack : 0.286
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst4|inst'
+Slack : 0.287
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst5|inst'
+Slack : 0.318
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst4|inst'
+Slack : -0.101
+TNS   : -0.101
+
+Type  : Slow 1200mV 85C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst5|inst'
+Slack : -0.080
+TNS   : -0.080
+
+Type  : Slow 1200mV 85C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst|inst'
+Slack : -0.069
+TNS   : -0.069
+
+Type  : Slow 1200mV 85C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst1254|inst'
+Slack : -0.068
+TNS   : -0.068
+
+Type  : Slow 1200mV 85C Model Hold 'ck'
+Slack : -0.057
+TNS   : -0.057
+
+Type  : Slow 1200mV 85C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst4|inst'
+Slack : -0.024
+TNS   : -0.024
+
+Type  : Slow 1200mV 85C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst5|inst'
+Slack : 0.010
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst|inst'
+Slack : 0.011
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst4|inst'
+Slack : 0.012
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst1254|inst'
+Slack : 0.016
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst5|inst'
+Slack : 0.016
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst6|inst'
+Slack : 0.016
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst4|inst'
+Slack : 0.018
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst6|inst'
+Slack : 0.020
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst|inst'
+Slack : 0.024
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst1254|inst'
+Slack : 0.030
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst1254|inst'
+Slack : 0.034
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst4|inst'
+Slack : 0.036
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst6|inst'
+Slack : 0.036
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst5|inst'
+Slack : 0.036
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst|inst'
+Slack : 0.036
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst6|inst'
+Slack : 0.039
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst|inst'
+Slack : 0.039
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst1254|inst'
+Slack : 0.084
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ck_man'
+Slack : 0.359
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst5|inst'
+Slack : 0.385
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ck_man'
+Slack : -3.000
+TNS   : -10.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ck'
+Slack : -3.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst1254|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst4|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst5|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst6|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst1254|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst4|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst5|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst6|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst1254|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst4|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst5|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst6|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst1254|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst4|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst5|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst1254|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst4|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst5|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst6|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Setup 'ck_man'
+Slack : -0.049
+TNS   : -0.049
+
+Type  : Slow 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst4|inst'
+Slack : 0.107
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst|inst'
+Slack : 0.111
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst1254|inst'
+Slack : 0.112
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst5|inst'
+Slack : 0.112
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst6|inst'
+Slack : 0.112
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst1254|inst'
+Slack : 0.178
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst5|inst'
+Slack : 0.224
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'ck'
+Slack : 0.226
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst4|inst'
+Slack : 0.226
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst6|inst'
+Slack : 0.226
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst5|inst'
+Slack : 0.226
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst|inst'
+Slack : 0.226
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst6|inst'
+Slack : 0.229
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst|inst'
+Slack : 0.229
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst1254|inst'
+Slack : 0.233
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst1254|inst'
+Slack : 0.234
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst|inst'
+Slack : 0.236
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst6|inst'
+Slack : 0.241
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst4|inst'
+Slack : 0.243
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst4|inst'
+Slack : 0.280
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst|inst'
+Slack : 0.294
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst1254|inst'
+Slack : 0.300
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst5|inst'
+Slack : 0.308
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst4|inst'
+Slack : 0.321
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst5|inst'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst4|inst'
+Slack : -0.108
+TNS   : -0.108
+
+Type  : Slow 1200mV 0C Model Hold 'ck'
+Slack : -0.099
+TNS   : -0.099
+
+Type  : Slow 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst5|inst'
+Slack : -0.083
+TNS   : -0.083
+
+Type  : Slow 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst1254|inst'
+Slack : -0.075
+TNS   : -0.075
+
+Type  : Slow 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst|inst'
+Slack : -0.073
+TNS   : -0.073
+
+Type  : Slow 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst4|inst'
+Slack : -0.055
+TNS   : -0.055
+
+Type  : Slow 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst|inst'
+Slack : -0.015
+TNS   : -0.015
+
+Type  : Slow 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst1254|inst'
+Slack : -0.012
+TNS   : -0.012
+
+Type  : Slow 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst5|inst'
+Slack : -0.012
+TNS   : -0.012
+
+Type  : Slow 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst6|inst'
+Slack : -0.012
+TNS   : -0.012
+
+Type  : Slow 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst4|inst'
+Slack : -0.011
+TNS   : -0.011
+
+Type  : Slow 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst6|inst'
+Slack : -0.005
+TNS   : -0.005
+
+Type  : Slow 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst5|inst'
+Slack : 0.001
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst4|inst'
+Slack : 0.006
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst|inst'
+Slack : 0.012
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst1254|inst'
+Slack : 0.016
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst4|inst'
+Slack : 0.022
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst6|inst'
+Slack : 0.022
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst5|inst'
+Slack : 0.022
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst|inst'
+Slack : 0.022
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst1254|inst'
+Slack : 0.036
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst6|inst'
+Slack : 0.041
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst|inst'
+Slack : 0.041
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst1254|inst'
+Slack : 0.057
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ck_man'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst5|inst'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ck_man'
+Slack : -3.000
+TNS   : -10.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ck'
+Slack : -3.000
+TNS   : -4.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst1254|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst4|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst5|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst6|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst1254|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst4|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst5|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst6|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst1254|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst4|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst5|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst6|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst1254|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst4|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst5|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst1254|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst4|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst5|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst6|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst|inst'
+Slack : 0.245
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst1254|inst'
+Slack : 0.249
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst5|inst'
+Slack : 0.249
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst6|inst'
+Slack : 0.249
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst4|inst'
+Slack : 0.250
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst1254|inst'
+Slack : 0.313
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ck_man'
+Slack : 0.336
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ck'
+Slack : 0.342
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst6|inst'
+Slack : 0.342
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst|inst'
+Slack : 0.343
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst1254|inst'
+Slack : 0.346
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst5|inst'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst4|inst'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst6|inst'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst|inst'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst6|inst'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst5|inst'
+Slack : 0.354
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst|inst'
+Slack : 0.359
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst1254|inst'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst4|inst'
+Slack : 0.366
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst4|inst'
+Slack : 0.374
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst1254|inst'
+Slack : 0.386
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst|inst'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst5|inst'
+Slack : 0.390
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst4|inst'
+Slack : 0.396
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst5|inst'
+Slack : 0.626
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ck'
+Slack : -0.076
+TNS   : -0.076
+
+Type  : Fast 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst4|inst'
+Slack : -0.052
+TNS   : -0.052
+
+Type  : Fast 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst|inst'
+Slack : -0.038
+TNS   : -0.038
+
+Type  : Fast 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst1254|inst'
+Slack : -0.038
+TNS   : -0.038
+
+Type  : Fast 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst5|inst'
+Slack : -0.038
+TNS   : -0.038
+
+Type  : Fast 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst4|inst'
+Slack : -0.025
+TNS   : -0.025
+
+Type  : Fast 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst4|inst'
+Slack : -0.011
+TNS   : -0.011
+
+Type  : Fast 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst1254|inst'
+Slack : -0.007
+TNS   : -0.007
+
+Type  : Fast 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst1254|inst'
+Slack : -0.006
+TNS   : -0.006
+
+Type  : Fast 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst|inst'
+Slack : -0.005
+TNS   : -0.005
+
+Type  : Fast 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst|inst'
+Slack : -0.004
+TNS   : -0.004
+
+Type  : Fast 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst6|inst'
+Slack : -0.003
+TNS   : -0.003
+
+Type  : Fast 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst5|inst'
+Slack : -0.002
+TNS   : -0.002
+
+Type  : Fast 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst6|inst'
+Slack : -0.002
+TNS   : -0.002
+
+Type  : Fast 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst5|inst'
+Slack : 0.000
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst4|inst'
+Slack : 0.001
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst6|inst'
+Slack : 0.001
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst|inst'
+Slack : 0.001
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst4|inst'
+Slack : 0.008
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst|inst'
+Slack : 0.009
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst1254|inst'
+Slack : 0.012
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst5|inst'
+Slack : 0.012
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst6|inst'
+Slack : 0.012
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst1254|inst'
+Slack : 0.046
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ck_man'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst5|inst'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ck_man'
+Slack : -3.000
+TNS   : -11.260
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ck'
+Slack : -3.000
+TNS   : -4.004
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst1254|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst4|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst5|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst6|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst1254|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst4|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst5|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst6|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst1254|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst4|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst5|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst6|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst1254|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst4|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst5|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst1254|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst4|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst5|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst6|inst'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst|inst'
+Slack : -1.000
+TNS   : -1.000
+
 ------------------------------------------------------------

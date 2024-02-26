@@ -1,5 +1,5 @@
 Analysis & Synthesis report for trabFinal
-Sun Feb 18 19:19:31 2024
+Wed Feb 21 08:23:23 2024
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -13,9 +13,11 @@ Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. General Register Statistics
-  9. Elapsed Time Per Partition
- 10. Analysis & Synthesis Messages
+  8. Logic Cells Representing Combinational Loops
+  9. Registers Removed During Synthesis
+ 10. General Register Statistics
+ 11. Elapsed Time Per Partition
+ 12. Analysis & Synthesis Messages
 
 
 
@@ -41,23 +43,19 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +------------------------------------+--------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Feb 18 19:19:31 2024      ;
+; Analysis & Synthesis Status        ; Successful - Wed Feb 21 08:23:23 2024      ;
 ; Quartus II 64-Bit Version          ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
 ; Revision Name                      ; trabFinal                                  ;
 ; Top-level Entity Name              ; trabFinal                                  ;
-; Family                             ; Cyclone IV GX                              ;
-; Total logic elements               ; 37                                         ;
-;     Total combinational functions  ; 37                                         ;
-;     Dedicated logic registers      ; 0                                          ;
-; Total registers                    ; 0                                          ;
-; Total pins                         ; 20                                         ;
+; Family                             ; Cyclone III                                ;
+; Total logic elements               ; 114                                        ;
+;     Total combinational functions  ; 114                                        ;
+;     Dedicated logic registers      ; 32                                         ;
+; Total registers                    ; 32                                         ;
+; Total pins                         ; 43                                         ;
 ; Total virtual pins                 ; 0                                          ;
 ; Total memory bits                  ; 0                                          ;
 ; Embedded Multiplier 9-bit elements ; 0                                          ;
-; Total GXB Receiver Channel PCS     ; 0                                          ;
-; Total GXB Receiver Channel PMA     ; 0                                          ;
-; Total GXB Transmitter Channel PCS  ; 0                                          ;
-; Total GXB Transmitter Channel PMA  ; 0                                          ;
 ; Total PLLs                         ; 0                                          ;
 +------------------------------------+--------------------------------------------+
 
@@ -67,8 +65,9 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                                     ; Setting            ; Default Value      ;
 +----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP3C16F484C6       ;                    ;
 ; Top-level entity name                                                      ; trabFinal          ; trabFinal          ;
-; Family name                                                                ; Cyclone IV GX      ; Cyclone IV GX      ;
+; Family name                                                                ; Cyclone III        ; Cyclone IV GX      ;
 ; Use smart compilation                                                      ; Off                ; Off                ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
 ; Enable compact report table                                                ; Off                ; Off                ;
@@ -159,60 +158,168 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                    ;
-+----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                          ; Library ;
-+----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------+---------+
-; trabFinal.bdf                    ; yes             ; User Block Diagram/Schematic File  ; C:/Users/pablo/OneDrive/Documentos/trabalho-INF01058/trabFinal.bdf    ;         ;
-; and2_4bits.bdf                   ; yes             ; User Block Diagram/Schematic File  ; C:/Users/pablo/OneDrive/Documentos/trabalho-INF01058/and2_4bits.bdf   ;         ;
-; xor2_4bits.bdf                   ; yes             ; User Block Diagram/Schematic File  ; C:/Users/pablo/OneDrive/Documentos/trabalho-INF01058/xor2_4bits.bdf   ;         ;
-; full_adder.bdf                   ; yes             ; User Block Diagram/Schematic File  ; C:/Users/pablo/OneDrive/Documentos/trabalho-INF01058/full_adder.bdf   ;         ;
-; somador4bits.bdf                 ; yes             ; User Block Diagram/Schematic File  ; C:/Users/pablo/OneDrive/Documentos/trabalho-INF01058/somador4bits.bdf ;         ;
-; ula4bits.bdf                     ; yes             ; User Block Diagram/Schematic File  ; C:/Users/pablo/OneDrive/Documentos/trabalho-INF01058/ula4bits.bdf     ;         ;
-; mux8to1.bdf                      ; yes             ; User Block Diagram/Schematic File  ; C:/Users/pablo/OneDrive/Documentos/trabalho-INF01058/mux8to1.bdf      ;         ;
-+----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                              ;
++----------------------------------+-----------------+------------------------------------------+-----------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path                              ; Library ;
++----------------------------------+-----------------+------------------------------------------+-----------------------------------------------------------+---------+
+; divFrequencia_5.bdf              ; yes             ; User Block Diagram/Schematic File        ; C:/Users/pablo/Downloads/CDtrabfinal/divFrequencia_5.bdf  ;         ;
+; trabFinal.bdf                    ; yes             ; User Block Diagram/Schematic File        ; C:/Users/pablo/Downloads/CDtrabfinal/trabFinal.bdf        ;         ;
+; mux4to1.bdf                      ; yes             ; User Block Diagram/Schematic File        ; C:/Users/pablo/Downloads/CDtrabfinal/mux4to1.bdf          ;         ;
+; downCounter4bits.bdf             ; yes             ; User Block Diagram/Schematic File        ; C:/Users/pablo/Downloads/CDtrabfinal/downCounter4bits.bdf ;         ;
+; upCounter4bits.bdf               ; yes             ; User Block Diagram/Schematic File        ; C:/Users/pablo/Downloads/CDtrabfinal/upCounter4bits.bdf   ;         ;
+; contador4bits.bdf                ; yes             ; User Block Diagram/Schematic File        ; C:/Users/pablo/Downloads/CDtrabfinal/contador4bits.bdf    ;         ;
+; and2_4bits.bdf                   ; yes             ; User Block Diagram/Schematic File        ; C:/Users/pablo/Downloads/CDtrabfinal/and2_4bits.bdf       ;         ;
+; xor2_4bits.bdf                   ; yes             ; User Block Diagram/Schematic File        ; C:/Users/pablo/Downloads/CDtrabfinal/xor2_4bits.bdf       ;         ;
+; full_adder.bdf                   ; yes             ; User Block Diagram/Schematic File        ; C:/Users/pablo/Downloads/CDtrabfinal/full_adder.bdf       ;         ;
+; somador4bits.bdf                 ; yes             ; User Block Diagram/Schematic File        ; C:/Users/pablo/Downloads/CDtrabfinal/somador4bits.bdf     ;         ;
+; ula4bits.bdf                     ; yes             ; User Block Diagram/Schematic File        ; C:/Users/pablo/Downloads/CDtrabfinal/ula4bits.bdf         ;         ;
+; mux8to1.bdf                      ; yes             ; User Block Diagram/Schematic File        ; C:/Users/pablo/Downloads/CDtrabfinal/mux8to1.bdf          ;         ;
+; ulaAux.bdf                       ; yes             ; User Block Diagram/Schematic File        ; C:/Users/pablo/Downloads/CDtrabfinal/ulaAux.bdf           ;         ;
+; mux2to1.bdf                      ; yes             ; User Block Diagram/Schematic File        ; C:/Users/pablo/Downloads/CDtrabfinal/mux2to1.bdf          ;         ;
+; display7.bdf                     ; yes             ; User Block Diagram/Schematic File        ; C:/Users/pablo/Downloads/CDtrabfinal/display7.bdf         ;         ;
+; divFrequencia_25.bdf             ; yes             ; User Block Diagram/Schematic File        ; C:/Users/pablo/Downloads/CDtrabfinal/divFrequencia_25.bdf ;         ;
+; divfrequencia_1.bdf              ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/pablo/Downloads/CDtrabfinal/divfrequencia_1.bdf  ;         ;
++----------------------------------+-----------------+------------------------------------------+-----------------------------------------------------------+---------+
 
 
-+---------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary ;
-+--------------------------+------------------+
-; Resource                 ; Usage            ;
-+--------------------------+------------------+
-; I/O pins                 ; 20               ;
-; DSP block 9-bit elements ; 0                ;
-; Maximum fan-out node     ; v[1]~input       ;
-; Maximum fan-out          ; 11               ;
-; Total fan-out            ; 158              ;
-; Average fan-out          ; 2.05             ;
-+--------------------------+------------------+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimated Total logic elements              ; 114       ;
+;                                             ;           ;
+; Total combinational functions               ; 114       ;
+; Logic element usage by number of LUT inputs ;           ;
+;     -- 4 input functions                    ; 61        ;
+;     -- 3 input functions                    ; 20        ;
+;     -- <=2 input functions                  ; 33        ;
+;                                             ;           ;
+; Logic elements by mode                      ;           ;
+;     -- normal mode                          ; 114       ;
+;     -- arithmetic mode                      ; 0         ;
+;                                             ;           ;
+; Total registers                             ; 32        ;
+;     -- Dedicated logic registers            ; 32        ;
+;     -- I/O registers                        ; 0         ;
+;                                             ;           ;
+; I/O pins                                    ; 43        ;
+; Embedded Multiplier 9-bit elements          ; 0         ;
+; Maximum fan-out node                        ; rst~input ;
+; Maximum fan-out                             ; 32        ;
+; Total fan-out                               ; 513       ;
+; Average fan-out                             ; 2.21      ;
++---------------------------------------------+-----------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                ;
-+-----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------------+--------------+
-; Compilation Hierarchy Node  ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                           ; Library Name ;
-+-----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------------+--------------+
-; |trabFinal                  ; 37 (3)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 20   ; 0            ; |trabFinal                                                    ; work         ;
-;    |mux8to1:inst200|        ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |trabFinal|mux8to1:inst200                                    ; work         ;
-;    |mux8to1:inst2|          ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |trabFinal|mux8to1:inst2                                      ; work         ;
-;    |mux8to1:inst51|         ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |trabFinal|mux8to1:inst51                                     ; work         ;
-;    |mux8to1:inst6|          ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |trabFinal|mux8to1:inst6                                      ; work         ;
-;    |ula4bits:inst39|        ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst39                                    ; work         ;
-;       |somador4bits:inst|   ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst39|somador4bits:inst                  ; work         ;
-;          |full_adder:inst1| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst39|somador4bits:inst|full_adder:inst1 ; work         ;
-;          |full_adder:inst3| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst39|somador4bits:inst|full_adder:inst3 ; work         ;
-;    |ula4bits:inst40|        ; 5 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst40                                    ; work         ;
-;       |somador4bits:inst|   ; 5 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst40|somador4bits:inst                  ; work         ;
-;          |full_adder:inst1| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst40|somador4bits:inst|full_adder:inst1 ; work         ;
-;          |full_adder:inst2| ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst40|somador4bits:inst|full_adder:inst2 ; work         ;
-;          |full_adder:inst3| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst40|somador4bits:inst|full_adder:inst3 ; work         ;
-;    |ula4bits:inst|          ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst                                      ; work         ;
-;       |somador4bits:inst|   ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst|somador4bits:inst                    ; work         ;
-;          |full_adder:inst1| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst|somador4bits:inst|full_adder:inst1   ; work         ;
-;          |full_adder:inst2| ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst|somador4bits:inst|full_adder:inst2   ; work         ;
-+-----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+-----------+------+--------------+---------------------------------------------------------------+--------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                               ;
++-------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------+--------------+
+; Compilation Hierarchy Node          ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                              ; Library Name ;
++-------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------+--------------+
+; |trabFinal                          ; 114 (0)           ; 32 (0)       ; 0           ; 0            ; 0       ; 0         ; 43   ; 0            ; |trabFinal                                                                       ; work         ;
+;    |contador4bits:inst62|           ; 15 (0)            ; 7 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|contador4bits:inst62                                                  ; work         ;
+;       |downCounter4bits:inst|       ; 4 (4)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|contador4bits:inst62|downCounter4bits:inst                            ; work         ;
+;       |mux4to1:inst3|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|contador4bits:inst62|mux4to1:inst3                                    ; work         ;
+;       |mux4to1:inst4|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|contador4bits:inst62|mux4to1:inst4                                    ; work         ;
+;       |mux4to1:inst5|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|contador4bits:inst62|mux4to1:inst5                                    ; work         ;
+;       |mux4to1:inst6|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|contador4bits:inst62|mux4to1:inst6                                    ; work         ;
+;       |upCounter4bits:inst2|        ; 3 (3)             ; 3 (3)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|contador4bits:inst62|upCounter4bits:inst2                             ; work         ;
+;    |display7:inst00|                ; 7 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|display7:inst00                                                       ; work         ;
+;       |mux8to1:inst1|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|display7:inst00|mux8to1:inst1                                         ; work         ;
+;       |mux8to1:inst2|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|display7:inst00|mux8to1:inst2                                         ; work         ;
+;       |mux8to1:inst3|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|display7:inst00|mux8to1:inst3                                         ; work         ;
+;       |mux8to1:inst4|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|display7:inst00|mux8to1:inst4                                         ; work         ;
+;       |mux8to1:inst5|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|display7:inst00|mux8to1:inst5                                         ; work         ;
+;       |mux8to1:inst6|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|display7:inst00|mux8to1:inst6                                         ; work         ;
+;       |mux8to1:inst|                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|display7:inst00|mux8to1:inst                                          ; work         ;
+;    |display7:inst72|                ; 18 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|display7:inst72                                                       ; work         ;
+;       |mux8to1:inst1|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|display7:inst72|mux8to1:inst1                                         ; work         ;
+;       |mux8to1:inst2|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|display7:inst72|mux8to1:inst2                                         ; work         ;
+;       |mux8to1:inst3|               ; 8 (8)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|display7:inst72|mux8to1:inst3                                         ; work         ;
+;       |mux8to1:inst4|               ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|display7:inst72|mux8to1:inst4                                         ; work         ;
+;       |mux8to1:inst5|               ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|display7:inst72|mux8to1:inst5                                         ; work         ;
+;       |mux8to1:inst6|               ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|display7:inst72|mux8to1:inst6                                         ; work         ;
+;       |mux8to1:inst|                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|display7:inst72|mux8to1:inst                                          ; work         ;
+;    |divFrequencia_25:inst1|         ; 25 (0)            ; 25 (0)       ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1                                                ; work         ;
+;       |divFrequencia_5:inst2|       ; 5 (0)             ; 5 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst2                          ; work         ;
+;          |divFrequencia_1:inst1254| ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst1254 ; work         ;
+;          |divFrequencia_1:inst4|    ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst4    ; work         ;
+;          |divFrequencia_1:inst5|    ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst5    ; work         ;
+;          |divFrequencia_1:inst6|    ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst6    ; work         ;
+;          |divFrequencia_1:inst|     ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst2|divFrequencia_1:inst     ; work         ;
+;       |divFrequencia_5:inst3|       ; 5 (0)             ; 5 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst3                          ; work         ;
+;          |divFrequencia_1:inst1254| ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst1254 ; work         ;
+;          |divFrequencia_1:inst4|    ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst4    ; work         ;
+;          |divFrequencia_1:inst5|    ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst5    ; work         ;
+;          |divFrequencia_1:inst6|    ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst6    ; work         ;
+;          |divFrequencia_1:inst|     ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst3|divFrequencia_1:inst     ; work         ;
+;       |divFrequencia_5:inst4|       ; 5 (0)             ; 5 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst4                          ; work         ;
+;          |divFrequencia_1:inst1254| ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst1254 ; work         ;
+;          |divFrequencia_1:inst4|    ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst4    ; work         ;
+;          |divFrequencia_1:inst5|    ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst5    ; work         ;
+;          |divFrequencia_1:inst6|    ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst6    ; work         ;
+;          |divFrequencia_1:inst|     ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst4|divFrequencia_1:inst     ; work         ;
+;       |divFrequencia_5:inst6|       ; 5 (0)             ; 5 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst6                          ; work         ;
+;          |divFrequencia_1:inst1254| ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst1254 ; work         ;
+;          |divFrequencia_1:inst4|    ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst4    ; work         ;
+;          |divFrequencia_1:inst5|    ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst5    ; work         ;
+;          |divFrequencia_1:inst6|    ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst6    ; work         ;
+;          |divFrequencia_1:inst|     ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst     ; work         ;
+;       |divFrequencia_5:inst|        ; 5 (0)             ; 5 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst                           ; work         ;
+;          |divFrequencia_1:inst1254| ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst1254  ; work         ;
+;          |divFrequencia_1:inst4|    ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst4     ; work         ;
+;          |divFrequencia_1:inst5|    ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst5     ; work         ;
+;          |divFrequencia_1:inst6|    ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst6     ; work         ;
+;          |divFrequencia_1:inst|     ; 1 (1)             ; 1 (1)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|divFrequencia_25:inst1|divFrequencia_5:inst|divFrequencia_1:inst      ; work         ;
+;    |mux2to1:inst222|                ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|mux2to1:inst222                                                       ; work         ;
+;    |ula4bits:inst|                  ; 48 (15)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst                                                         ; work         ;
+;       |mux8to1:inst200|             ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst|mux8to1:inst200                                         ; work         ;
+;       |mux8to1:inst2|               ; 6 (6)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst|mux8to1:inst2                                           ; work         ;
+;       |mux8to1:inst51|              ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst|mux8to1:inst51                                          ; work         ;
+;       |mux8to1:inst6|               ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst|mux8to1:inst6                                           ; work         ;
+;       |ulaAux:inst19|               ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst|ulaAux:inst19                                           ; work         ;
+;          |somador4bits:inst1|       ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst|ulaAux:inst19|somador4bits:inst1                        ; work         ;
+;             |full_adder:inst1|      ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst|ulaAux:inst19|somador4bits:inst1|full_adder:inst1       ; work         ;
+;             |full_adder:inst2|      ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst|ulaAux:inst19|somador4bits:inst1|full_adder:inst2       ; work         ;
+;             |full_adder:inst3|      ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst|ulaAux:inst19|somador4bits:inst1|full_adder:inst3       ; work         ;
+;       |ulaAux:inst20|               ; 5 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst|ulaAux:inst20                                           ; work         ;
+;          |somador4bits:inst1|       ; 5 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst|ulaAux:inst20|somador4bits:inst1                        ; work         ;
+;             |full_adder:inst1|      ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst|ulaAux:inst20|somador4bits:inst1|full_adder:inst1       ; work         ;
+;             |full_adder:inst2|      ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst|ulaAux:inst20|somador4bits:inst1|full_adder:inst2       ; work         ;
+;             |full_adder:inst3|      ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst|ulaAux:inst20|somador4bits:inst1|full_adder:inst3       ; work         ;
+;       |ulaAux:inst21|               ; 4 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst|ulaAux:inst21                                           ; work         ;
+;          |somador4bits:inst1|       ; 4 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst|ulaAux:inst21|somador4bits:inst1                        ; work         ;
+;             |full_adder:inst1|      ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst|ulaAux:inst21|somador4bits:inst1|full_adder:inst1       ; work         ;
+;             |full_adder:inst2|      ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst|ulaAux:inst21|somador4bits:inst1|full_adder:inst2       ; work         ;
+;             |full_adder:inst3|      ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |trabFinal|ula4bits:inst|ulaAux:inst21|somador4bits:inst1|full_adder:inst3       ; work         ;
++-------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------------+
+; Logic Cells Representing Combinational Loops               ;
++--------------------------------------------------------+---+
+; Logic Cell Name                                        ;   ;
++--------------------------------------------------------+---+
+; contador4bits:inst62|mux4to1:inst6|inst6~0             ;   ;
+; contador4bits:inst62|mux4to1:inst4|inst6~0             ;   ;
+; contador4bits:inst62|mux4to1:inst5|inst6~0             ;   ;
+; contador4bits:inst62|mux4to1:inst3|inst6~0             ;   ;
+; Number of logic cells representing combinational loops ; 4 ;
++--------------------------------------------------------+---+
+Note: All cells listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++--------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                           ;
++------------------------------------------------+-------------------------------------------------------------+
+; Register name                                  ; Reason for Removal                                          ;
++------------------------------------------------+-------------------------------------------------------------+
+; contador4bits:inst62|upCounter4bits:inst2|inst ; Merged with contador4bits:inst62|downCounter4bits:inst|inst ;
+; Total Number of Removed Registers = 1          ;                                                             ;
++------------------------------------------------+-------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -220,10 +327,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 0     ;
+; Total registers                              ; 32    ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Clear ; 32    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 0     ;
 ; Number of registers using Preset             ; 0     ;
@@ -245,7 +352,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
-    Info: Processing started: Sun Feb 18 19:19:29 2024
+    Info: Processing started: Wed Feb 21 08:23:21 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off trabFinal -c trabFinal
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Warning (12019): Can't analyze file -- file divisorDeFrequencia_1estagio.bdf is missing
@@ -258,8 +365,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file mux4to1
 Info (12021): Found 1 design units, including 1 entities, in source file contador_1bit.bdf
     Info (12023): Found entity 1: contador_1bit
 Warning (12019): Can't analyze file -- file contadorGenerico_1bit.bdf is missing
-Info (12021): Found 1 design units, including 1 entities, in source file testecont4bit.bdf
-    Info (12023): Found entity 1: testeCont4bit
+Warning (12019): Can't analyze file -- file testeCont4bit.bdf is missing
 Warning (12019): Can't analyze file -- file upCounter4bit.bdf is missing
 Info (12021): Found 1 design units, including 1 entities, in source file downcounter4bits.bdf
     Info (12023): Found entity 1: downCounter4bits
@@ -282,27 +388,45 @@ Info (12021): Found 1 design units, including 1 entities, in source file mux8to1
     Info (12023): Found entity 1: mux8to1
 Info (12021): Found 1 design units, including 1 entities, in source file mux4to1_4bits.bdf
     Info (12023): Found entity 1: mux4to1_4bits
+Info (12021): Found 1 design units, including 1 entities, in source file ulaaux.bdf
+    Info (12023): Found entity 1: ulaAux
+Info (12021): Found 1 design units, including 1 entities, in source file mux2to1.bdf
+    Info (12023): Found entity 1: mux2to1
+Info (12021): Found 1 design units, including 1 entities, in source file display7.bdf
+    Info (12023): Found entity 1: display7
+Info (12021): Found 1 design units, including 1 entities, in source file divfrequencia_25.bdf
+    Info (12023): Found entity 1: divFrequencia_25
 Info (12127): Elaborating entity "trabFinal" for the top level hierarchy
-Info (12128): Elaborating entity "mux8to1" for hierarchy "mux8to1:inst200"
+Info (12128): Elaborating entity "display7" for hierarchy "display7:inst00"
+Info (12128): Elaborating entity "mux8to1" for hierarchy "display7:inst00|mux8to1:inst"
+Info (12128): Elaborating entity "contador4bits" for hierarchy "contador4bits:inst62"
+Info (12128): Elaborating entity "mux4to1" for hierarchy "contador4bits:inst62|mux4to1:inst6"
+Info (12128): Elaborating entity "upCounter4bits" for hierarchy "contador4bits:inst62|upCounter4bits:inst2"
+Info (12128): Elaborating entity "downCounter4bits" for hierarchy "contador4bits:inst62|downCounter4bits:inst"
+Info (12128): Elaborating entity "mux2to1" for hierarchy "mux2to1:inst222"
+Info (12128): Elaborating entity "divFrequencia_25" for hierarchy "divFrequencia_25:inst1"
+Info (12128): Elaborating entity "divFrequencia_5" for hierarchy "divFrequencia_25:inst1|divFrequencia_5:inst6"
+Warning (12125): Using design file divfrequencia_1.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+    Info (12023): Found entity 1: divFrequencia_1
+Info (12128): Elaborating entity "divFrequencia_1" for hierarchy "divFrequencia_25:inst1|divFrequencia_5:inst6|divFrequencia_1:inst6"
 Info (12128): Elaborating entity "ula4bits" for hierarchy "ula4bits:inst"
-Info (12128): Elaborating entity "somador4bits" for hierarchy "ula4bits:inst|somador4bits:inst"
-Info (12128): Elaborating entity "full_adder" for hierarchy "ula4bits:inst|somador4bits:inst|full_adder:inst3"
-Info (12128): Elaborating entity "and2_4bits" for hierarchy "ula4bits:inst|and2_4bits:inst7"
-Info (12128): Elaborating entity "xor2_4bits" for hierarchy "ula4bits:inst|xor2_4bits:inst8"
-Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "ZNCBV[4]" is stuck at GND
-    Warning (13410): Pin "ZNCBV[3]" is stuck at GND
-    Warning (13410): Pin "ZNCBV[1]" is stuck at GND
+Info (12128): Elaborating entity "ulaAux" for hierarchy "ula4bits:inst|ulaAux:inst19"
+Info (12128): Elaborating entity "somador4bits" for hierarchy "ula4bits:inst|ulaAux:inst19|somador4bits:inst1"
+Info (12128): Elaborating entity "full_adder" for hierarchy "ula4bits:inst|ulaAux:inst19|somador4bits:inst1|full_adder:inst3"
+Info (12128): Elaborating entity "and2_4bits" for hierarchy "ula4bits:inst|ulaAux:inst19|and2_4bits:inst7"
+Info (12128): Elaborating entity "xor2_4bits" for hierarchy "ula4bits:inst|ulaAux:inst19|xor2_4bits:inst8"
+Warning (19016): Clock multiplexers are found and protected
+    Warning (19017): Found clock multiplexer mux2to1:inst222|inst2~0
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 57 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 11 input pins
-    Info (21059): Implemented 9 output pins
-    Info (21061): Implemented 37 logic cells
+Info (21057): Implemented 157 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 13 input pins
+    Info (21059): Implemented 30 output pins
+    Info (21061): Implemented 114 logic cells
 Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 9 warnings
-    Info: Peak virtual memory: 4673 megabytes
-    Info: Processing ended: Sun Feb 18 19:19:31 2024
+    Info: Peak virtual memory: 4616 megabytes
+    Info: Processing ended: Wed Feb 21 08:23:23 2024
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 

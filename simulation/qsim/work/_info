@@ -4,11 +4,11 @@ K3
 cModel Technology
 Z0 dC:\Users\pablo\OneDrive\Documentos\trabalho-INF01058\simulation\qsim
 vtrabFinal
-Z1 !s100 6nQ>6MCLfQg9d^C9:Wj;h1
-Z2 II?J:[YH1bS33edCzcPj:F1
-Z3 V9JQi695LHJ=?Jih>L[VzH1
-Z4 dC:\Users\pablo\OneDrive\Documentos\trabalho-INF01058\simulation\qsim
-Z5 w1708294899
+Z1 !s100 bo_QK`7PE1XcX<ST@[jS<1
+Z2 IM0dE>Y^NzPAaD<3?H<8:o1
+Z3 V;g3FiN4mg_5W3mTR:@N>40
+Z4 dC:\Users\pablo\Downloads\CDtrabfinal\simulation\qsim
+Z5 w1708515084
 Z6 8trabFinal.vo
 Z7 FtrabFinal.vo
 L0 31
@@ -20,66 +20,66 @@ Z10 o-work work -O0
 Z11 ntrab@final
 !i10b 1
 !s85 0
-Z12 !s108 1708294900.041000
+Z12 !s108 1708515085.152000
 Z13 !s107 trabFinal.vo|
 !s101 -O0
 vtrabFinal_vlg_check_tst
 !i10b 1
-Z14 !s100 6Ge?94606oMhd>^fJBl[z2
-Z15 IeZBgZ^HC9fdD75B`?>3Z=2
-Z16 Vlj<c_?8LMROTi`Djnk<Xe0
+!s100 1ba8zQA4@CMlCOFU[i5an0
+I8NG16ehXA4Nok?h;IjmF60
+Z14 VC509IH^[TE]QKMYbVdY?N2
 R4
-Z17 w1708294898
-Z18 8Waveform26.vwf.vt
-Z19 FWaveform26.vwf.vt
-L0 61
+Z15 w1708515083
+Z16 8trabFinal.vwf.vt
+Z17 FtrabFinal.vwf.vt
+L0 69
 R8
 r1
 !s85 0
 31
-Z20 !s108 1708294900.115000
-Z21 !s107 Waveform26.vwf.vt|
-Z22 !s90 -work|work|Waveform26.vwf.vt|
+Z18 !s108 1708515085.222000
+Z19 !s107 trabFinal.vwf.vt|
+Z20 !s90 -work|work|trabFinal.vwf.vt|
 !s101 -O0
 R10
-Z23 ntrab@final_vlg_check_tst
+Z21 ntrab@final_vlg_check_tst
 vtrabFinal_vlg_sample_tst
 !i10b 1
-Z24 !s100 U]>9W39bMzhPTCWh^?JRL2
-Z25 IACWY7<2^OHV2;97UD;=Xf0
-Z26 VL>zfz5[Dj_ZW;DiK?nzHi1
+Z22 !s100 TZa[:_HLKMJl<bY24lCmW2
+Z23 I^7_UEmW1mm5iJkfDXjo3B0
+Z24 VaRZI<S<CR0P:Da3`VdNNO1
 R4
+R15
+R16
 R17
-R18
-R19
 L0 29
 R8
 r1
 !s85 0
 31
-R20
-R21
-R22
-!s101 -O0
-R10
-Z27 ntrab@final_vlg_sample_tst
-vtrabFinal_vlg_vec_tst
-!i10b 1
-Z28 !s100 PbNEE`RP_X5[DHaU<F[W31
-Z29 I>^NcJ@me[RjPOb2e6CLZ=0
-Z30 VG?aUkSKP`9KIJ0gi9eI:g0
-R4
-R17
 R18
 R19
-Z31 L0 307
+R20
+!s101 -O0
+R10
+Z25 ntrab@final_vlg_sample_tst
+vtrabFinal_vlg_vec_tst
+!i10b 1
+!s100 lO6;8WUdd@9jh;QYlAmSA0
+ITF?JNYkgNkR05hN7l[RJ83
+Z26 VG?aUkSKP`9KIJ0gi9eI:g0
+R4
+R15
+R16
+R17
+L0 858
 R8
 r1
 !s85 0
 31
+R18
+R19
 R20
-R21
-R22
 !s101 -O0
 R10
-Z32 ntrab@final_vlg_vec_tst
+Z27 ntrab@final_vlg_vec_tst

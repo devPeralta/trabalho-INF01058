@@ -53,9 +53,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 816 648 992 664)
+	(rect 808 608 984 624)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "out[4..0]" (rect 90 0 131 12)(font "Arial" ))
+	(text "out" (rect 90 0 105 12)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -69,35 +69,6 @@ applicable agreement for further details.
 )
 (symbol
 	(rect 704 136 800 232)
-	(text "divFrequencia_1" (rect 5 0 99 14)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 80 25 92)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "clock" (rect 0 0 29 14)(font "Arial" (font_size 8)))
-		(text "clock" (rect 21 27 50 41)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "reset" (rect 0 0 29 14)(font "Arial" (font_size 8)))
-		(text "reset" (rect 21 43 50 57)(font "Arial" (font_size 8)))
-		(line (pt 0 48)(pt 16 48))
-	)
-	(port
-		(pt 96 32)
-		(output)
-		(text "out" (rect 0 0 17 14)(font "Arial" (font_size 8)))
-		(text "out" (rect 58 27 75 41)(font "Arial" (font_size 8)))
-		(line (pt 96 32)(pt 80 32))
-	)
-	(drawing
-		(rectangle (rect 16 16 80 80))
-	)
-)
-(symbol
-	(rect 704 248 800 344)
 	(text "divFrequencia_1" (rect 5 0 99 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 80 25 92)(font "Arial" ))
 	(port
@@ -212,13 +183,38 @@ applicable agreement for further details.
 		(rectangle (rect 16 16 80 80))
 	)
 )
+(symbol
+	(rect 704 248 800 344)
+	(text "divFrequencia_1" (rect 5 0 99 14)(font "Arial" (font_size 8)))
+	(text "inst1254" (rect 8 80 49 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clock" (rect 0 0 29 14)(font "Arial" (font_size 8)))
+		(text "clock" (rect 21 27 50 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "reset" (rect 0 0 29 14)(font "Arial" (font_size 8)))
+		(text "reset" (rect 21 43 50 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 96 32)
+		(output)
+		(text "out" (rect 0 0 17 14)(font "Arial" (font_size 8)))
+		(text "out" (rect 58 27 75 41)(font "Arial" (font_size 8)))
+		(line (pt 96 32)(pt 80 32))
+	)
+	(drawing
+		(rectangle (rect 16 16 80 80))
+	)
+)
 (connector
 	(pt 704 168)
 	(pt 488 168)
-)
-(connector
-	(pt 808 168)
-	(pt 808 240)
 )
 (connector
 	(pt 808 240)
@@ -306,47 +302,29 @@ applicable agreement for further details.
 	(pt 648 632)
 )
 (connector
-	(pt 808 168)
-	(pt 856 168)
-)
-(connector
-	(pt 808 280)
-	(pt 856 280)
-)
-(connector
-	(pt 808 392)
-	(pt 856 392)
-)
-(connector
-	(text "out[2] " (rect 824 376 855 388)(font "Arial" ))
-	(pt 800 392)
-	(pt 808 392)
-)
-(connector
-	(text "out[3]" (rect 824 264 852 276)(font "Arial" ))
-	(pt 800 280)
-	(pt 808 280)
-)
-(connector
-	(text "out[4]" (rect 824 152 852 164)(font "Arial" ))
+	(text "<<__$DEF_ALIAS16560>>" (rect 824 144 953 156)(font "Arial" )(invisible))
 	(pt 800 168)
 	(pt 808 168)
 )
 (connector
-	(pt 808 504)
-	(pt 856 504)
+	(pt 808 168)
+	(pt 808 240)
 )
 (connector
-	(text "out[1]" (rect 824 488 852 500)(font "Arial" ))
-	(pt 800 504)
-	(pt 808 504)
-)
-(connector
-	(text "out[0]" (rect 824 600 852 612)(font "Arial" ))
 	(pt 800 616)
-	(pt 856 616)
+	(pt 808 616)
 )
-(junction (pt 808 168))
-(junction (pt 808 280))
-(junction (pt 808 392))
-(junction (pt 808 504))
+(connector
+	(text "<<__$DEF_ALIAS16570>>" (rect 824 376 953 388)(font "Arial" )(invisible))
+	(pt 800 392)
+	(pt 808 392)
+)
+(connector
+	(text "<<__$DEF_ALIAS16572>>" (rect 824 264 953 276)(font "Arial" )(invisible))
+	(pt 800 280)
+	(pt 808 280)
+)
+(connector
+	(pt 808 504)
+	(pt 800 504)
+)

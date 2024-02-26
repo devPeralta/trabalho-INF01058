@@ -36,8 +36,8 @@
 # -------------------------------------------------------------------------- #
 
 
-set_global_assignment -name FAMILY "Cyclone IV GX"
-set_global_assignment -name DEVICE auto
+set_global_assignment -name FAMILY "Cyclone III"
+set_global_assignment -name DEVICE EP3C16F484C6
 set_global_assignment -name TOP_LEVEL_ENTITY trabFinal
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "11:06:08  FEBRUARY 11, 2024"
@@ -54,7 +54,7 @@ set_global_assignment -name BDF_FILE trabFinal.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE trabFinal.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform1.vwf
-set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "C:/Users/pablo/OneDrive/Documentos/trabalho-INF01058/simulation/qsim/" -section_id eda_simulation
+set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "C:/Users/pablo/Downloads/CDtrabfinal/simulation/qsim/" -section_id eda_simulation
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
 set_global_assignment -name BDF_FILE mux4to1.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform2.vwf
@@ -96,5 +96,50 @@ set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform23.vwf
 set_global_assignment -name BDF_FILE mux4to1_4bits.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform24.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform25.vwf
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform26.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform27.vwf
+set_global_assignment -name BDF_FILE ulaAux.bdf
+set_global_assignment -name BDF_FILE mux2to1.bdf
+set_global_assignment -name BDF_FILE display7.bdf
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_F2 -to ZNCBV[4]
+set_location_assignment PIN_H1 -to ZNCBV[3]
+set_location_assignment PIN_J3 -to ZNCBV[2]
+set_location_assignment PIN_J2 -to ZNCBV[1]
+set_location_assignment PIN_J1 -to ZNCBV[0]
+set_location_assignment PIN_D13 -to cki
+set_location_assignment PIN_E11 -to hb0
+set_location_assignment PIN_F11 -to hb1
+set_location_assignment PIN_H12 -to hb2
+set_location_assignment PIN_H13 -to hb3
+set_location_assignment PIN_G12 -to hb4
+set_location_assignment PIN_F12 -to hb5
+set_location_assignment PIN_F13 -to hb6
+set_location_assignment PIN_A15 -to hbNeg
+set_location_assignment PIN_H2 -to rst
+set_location_assignment PIN_D15 -to ha0
+set_location_assignment PIN_A16 -to ha1
+set_location_assignment PIN_B16 -to ha2
+set_location_assignment PIN_E15 -to ha3
+set_location_assignment PIN_A17 -to ha4
+set_location_assignment PIN_B17 -to ha5
+set_location_assignment PIN_F14 -to ha6
+set_location_assignment PIN_G15 -to haNeg
+set_location_assignment PIN_B12 -to ck
+set_location_assignment PIN_G3 -to ck_man
+set_location_assignment PIN_D2 -to d[3]
+set_location_assignment PIN_E4 -to d[2]
+set_location_assignment PIN_E3 -to d[1]
+set_location_assignment PIN_H7 -to d[0]
+set_location_assignment PIN_J6 -to ctrl_mux
+set_location_assignment PIN_J7 -to v[2]
+set_location_assignment PIN_G5 -to v[1]
+set_location_assignment PIN_G4 -to v[0]
+set_location_assignment PIN_H6 -to w[1]
+set_location_assignment PIN_H5 -to w[0]
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform28.vwf
+set_location_assignment PIN_B1 -to pin_name1
+set_global_assignment -name BDF_FILE divFrequencia_25.bdf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
